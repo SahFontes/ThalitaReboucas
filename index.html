@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Além das Páginas | Thalita Rebouças</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- <div class="loader">
+        <h1>Além das Páginas ✦</h1>
+    </div> -->
+
+    <header>
+        <nav>
+            <div class="logo">✦ Além das Páginas</div>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#Thalita">Thalita</a></li>
+                <li><a href="#filmes">Filmes</a></li>
+                <li><a href="#tema">Impacto</a></li>
+                <li><a href="#linha-tempo">Linha do Tempo</a></li>
+                <li><a href="#entrevistas">Entrevistas</a></li>
+                <li><a href="#trilha">Trilha Sonora</a></li>
+                <li><a href="#opiniao">Opinião</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="hero-text">
+            <span>INTERCLASSE 2026</span>
+            <h1>Thalita Rebouças</h1>
+            <h2>Histórias que parecem conversar com a gente.</h2>
+            <p>Uma viagem pela vida e pelas obras da autora que conquistou milhares de jovens leitores.</p>
+            <a href="#Thalita" class="button">Começar leitura</a>
+        </div>
+        <img src="img/thalita.png" alt="Imagem de fundo com livros e elementos literários">
+    </section>
+
+    <section class="section" id="Thalita">
+        <div class="titulo">
+            <h2>Quem é Thalita?</h2>
+            <p>A mãe da adolescência brasileira!</p>
+        </div>
+
+        <div class="sobre">
+            <img src="img/img-bio.png">
+            <div>
+                <p>Thalita Rebouças é uma escritora brasileira conhecida por suas histórias voltadas principalmente ao
+                    público juvenil.</p>
+                <p>Suas obras apresentam situações próximas da realidade dos adolescentes, como amizade, família,
+                    escola, sentimentos e descobertas.</p>
+                <p>Por meio da literatura, Thalita mostra que ler também é uma forma de se conhecer e enxergar o mundo.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section fundo" id="filmes">
+        <div class="titulo">
+            <h2>Filmes que marcaram gerações</h2>
+            <p>Algumas obras da autora.</p>
+        </div>
+
+        <div class="livros">
+            <div class="card">
+                <img src="img/fala-serio-mae.png">
+                <h3>Fala Sério, Mãe!</h3>
+                <p>Uma história sobre família, crescimento e relações.</p>
+            </div>
+
+            <div class="card">
+                <img src="img/tudo-por-um-pop-star.png">
+                <h3>Tudo por um Pop Star</h3>
+                <p>Uma aventura sobre amizade, sonhos e juventude.</p>
+            </div>
+
+            <div class="card">
+                <img src="img/ela-disse-ele-disse.png">
+                <h3>Ela Disse, Ele Disse</h3>
+                <p>Uma história mostrando diferentesvisões da adolescência.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+<!-- SECTION: ROLETA -->
+<section class="roleta-section" id="roleta-surpresa">
+
+    <div class="titulo-roleta">
+        <h2>
+            Gire a roleta!
+        </h2>
+
+        <p class="roleta-chamada">
+            Qual vibe da Thalita combina com você hoje?
+        </p>
+
+        <p class="roleta-desc">
+            Dê uma giradinha e descubra uma palavra que
+            tem tudo a ver com o universo das histórias,
+            personagens e aventuras da autora.
+        </p>
+
+        <button id="girarRoleta">
+     GIRAR AGORA!
+        </button>
+
+        <div class="resultado-box">
+            <span class="resultado-label">SEU RESULTADO :</span>
+            <div id="resultadoRoleta">
+                Gire a roleta e descubra! 
+            </div>
+        </div>
+
+    </div>
+
+    <div class="roleta-area">
+
+        <div class="frase-roleta">
+            VAI, GIRA! 
+        </div>
+
+        <div class="roleta-container">
+
+            <div class="ponteiro">
+                <span>▼</span>
+            </div>
+
+            <div class="roleta" id="roleta">
+
+                <div class="fatia">
+                    <span class="emoji">💗</span>
+                    <span>Amizade</span>
+                </div>
+
+                <div class="fatia">
+                    <span class="emoji">😂</span>
+                    <span>Humor</span>
+                </div>
+
+                <div class="fatia">
+                    <span class="emoji">📚</span>
+                    <span>Literatura</span>
+                </div>
+
+                <div class="fatia">
+                    <span class="emoji">✨</span>
+                    <span>Sonhos</span>
+                </div>
+
+                <div class="fatia">
+                    <span class="emoji">🎭</span>
+                    <span>Emoções</span>
+                </div>
+
+                <div class="fatia">
+                    <span class="emoji">🌱</span>
+                    <span>Juventude</span>
+                </div>
+
+            </div>
+
+            <div class="centro-roleta">
+                <span>✦</span>
+            </div>
+
+        </div>
+
+        <div class="legenda-roleta">
+            <p>Seu universo, suas histórias, sua vibe!</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+    <section class="section fundo" id="linha-tempo">
+
+        <div class="titulo">
+            <h2>Linha do Tempo</h2>
+            <p>A trajetória literária de Thalita Rebouças.</p>
+        </div>
+
+        <div class="timeline-horizontal">
+
+            <div class="timeline-card">
+                <span>2000</span>
+                <h3>Traição entre Amigas</h3>
+                <p>Primeiro livro publicado pela autora.</p>
+            </div>
+
+            <div class="timeline-card">
+                <span>2003</span>
+                <h3>Tudo por um Pop Star</h3>
+                <p>Um dos maiores sucessos juvenis.</p>
+            </div>
+
+            <div class="timeline-card">
+                <span>2004</span>
+                <h3>Fala Sério, Mãe!</h3>
+                <p>Início da famosa série "Fala Sério".</p>
+            </div>
+
+            <div class="timeline-card">
+                <span>2007</span>
+                <h3>Uma Fada Veio Me Visitar</h3>
+                <p>Uma aventura com fantasia e amizade.</p>
+            </div>
+
+            <div class="timeline-card">
+                <span>2011</span>
+                <h3>Ela Disse, Ele Disse</h3>
+                <p>Uma história com diferentes pontos de vista.</p>
+            </div>
+
+            <div class="timeline-card">
+                <span>2016</span>
+                <h3>Confissões de uma Garota Excluída</h3>
+                <p>Temas como bullying e autoestima.</p>
+            </div>
+
+            <div class="timeline-card">
+                <span>2020</span>
+                <h3>Pai em Dobro</h3>
+                <p>Livro adaptado para a Netflix.</p>
+            </div>
+
+            <div class="timeline-card">
+                <span>2025</span>
+                <h3>Novas histórias</h3>
+                <p>A autora continua conquistando leitores.</p>
+            </div>
+
+        </div>
+
+    
+
+    </section>
+
+    <section class="section entrevistas" id="entrevistas">
+        <div class="titulo">
+            <h2>Suspirando Thalita</h2>
+            <p>Cultura, identidade e protagonismo juvenil.</p>
+        </div>
+
+        <div class="swiper entrevistasSwiper">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="card-entrevista">
+                        <h3>O poder de contar histórias: Thalita Rebouças na Agenda Carioca</h3>
+                        <p>Rádio JBFM</p>
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/rXZz-s42up4?si=EZbQOvGnHOrtJNF-"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card-entrevista">
+                        <h3>Thalita Rebouças sobre sucesso co público adolescente: "Eles me escolheram"</h3>
+                        <p>Universa</p>
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/tZ0mxt80qLs?si=co5bzZf4UEo_DU1N"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card-entrevista">
+                        <h3>Thalita Rebouças estreia como atriz em musical "Fala sério, mãe" no Rio</h3>
+                        <p>SBT Rio</p>
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/6LtMDE6G_I0?si=uhyni7s4s4xYACh9"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card-entrevista">
+                        <h3>Gio e Thalita Rebouças falam sobre os trabalhos maravilhosos da escritora</h3>
+                        <p>Canal GNT</p>
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/Fpf9MAq0ocw?si=K-mz3z0nWE_3z96k"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card-entrevista">
+                        <h3>Fala sério, Thalita Rebouças!</h3>
+                        <p>Mais Mara</p>
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/So0NWjMREzA?si=6LnIgaXLuZtzAOB4"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card-entrevista">
+                        <h3>O escritor e o sucesso: Thalita Rebouças no Trilha das Letras</h3>
+                        <p>TV Brasil</p>
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/eBZHfv1wUpE?si=pNCUKTjdm-nVPIwj"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <section class="section trilha" id="trilha">
+
+        <div class="titulo">
+            <h2>Trilha Sonora das Histórias</h2>
+            <p>Músicas que combinam com os sentimentos presentes nas obras de Thalita Rebouças.</p>
+        </div>
+
+        <div class="musicas">
+
+            <div class="musica-card">
+                <div class="icone">💗</div>
+                <h3>As melhores músicas em um único lugar!</h3>
+                <p>Pronto(a) para sentir a energia da adolescência brasileira!</p>
+
+                <div class="playlists">
+
+                    <div class="musica-card">
+                        <iframe
+                            src="https://open.spotify.com/embed/playlist/2J4mmAVXmLlnuK5uzztAZV?utm_source=generator"
+                            width="100%" height="352" frameborder="0"
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy">
+                        </iframe>
+                    </div>
+
+                    <div class="musica-card">
+                        <iframe
+                            src="https://open.spotify.com/embed/playlist/3EPLx21a5T1kECaCflWW0C?utm_source=generator"
+                            width="100%" height="352" frameborder="0"
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy">
+                        </iframe>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section opiniao" id="opiniao">
+        <div class="titulo">
+            <h2>Nossa opinião</h2>
+        </div>
+
+        <div class="caixa-opiniao">
+            <p>A escrita de Thalita Rebouças chama atenção porque traz situações reais da adolescência.
+                Suas histórias mostram que a literatura pode ser leve, divertida e transformadora.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Produzido por: Sarah Lopes Fontes</p>
+        <p>3° A • Interclasse 2026</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
